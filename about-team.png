@@ -1,0 +1,317 @@
+import {
+  Sparkles,
+  Factory,
+  Shirt,
+  Trees,
+  Hammer,
+  SprayCan,
+  PencilRuler,
+  Printer,
+  HardHat,
+  UtensilsCrossed,
+  FileText,
+  Briefcase,
+  type LucideIcon,
+} from 'lucide-react'
+
+export const company = {
+  name: 'Tlou Tubatse Construction & Projects',
+  legalName: 'Tlou Tubatse Construction and Projects (Pty) Ltd',
+  slogan: 'We will do it right all the time',
+  regNo: '2014/021356/07',
+  taxNo: '9728026163',
+  contactPerson: 'Tshepo Stanley Machete',
+  phones: ['078 989 4555', '079 360 7413'],
+  fax: '086 510 3431',
+  email: 'hipcus@gmail.com',
+  physicalAddress: 'Stand Number 288, Marapong Village, Dinnilton, Limpopo, 1030',
+  postalAddress: 'PO Box 19163, Marapong Village, Dinnilton, Limpopo, 1030',
+}
+
+export type Service = {
+  title: string
+  description: string
+  icon: LucideIcon
+}
+
+export const services: Service[] = [
+  {
+    title: 'Cleaning & Hygiene Services',
+    description:
+      'Professional cleaning and hygiene solutions that keep your premises spotless, healthy and presentable.',
+    icon: Sparkles,
+  },
+  {
+    title: 'Industrial Cleaning',
+    description:
+      'Specialised industrial and sludge cleaning handled with the right equipment and trained teams.',
+    icon: Factory,
+  },
+  {
+    title: 'Laundry Services',
+    description:
+      'Reliable cleaning and laundry services delivered consistently and on schedule.',
+    icon: Shirt,
+  },
+  {
+    title: 'Gardening & Landscaping',
+    description:
+      'Garden services and landscaping that maintain attractive, well-kept outdoor spaces.',
+    icon: Trees,
+  },
+  {
+    title: 'Supply of Building Materials',
+    description:
+      'Supply and delivery of quality building materials for projects of every size.',
+    icon: Hammer,
+  },
+  {
+    title: 'Cleaning Products Supply',
+    description:
+      'Supply and delivery of effective cleaning products to keep operations running.',
+    icon: SprayCan,
+  },
+  {
+    title: 'Stationery Supply',
+    description:
+      'Supply and delivery of office stationery for businesses and institutions.',
+    icon: PencilRuler,
+  },
+  {
+    title: 'Office Equipment Supply',
+    description:
+      'Supply and delivery of office equipment to keep your workplace fully resourced.',
+    icon: Printer,
+  },
+  {
+    title: 'Protective Clothing Supply',
+    description:
+      'Supply and delivery of protective clothing that keeps teams safe and compliant.',
+    icon: HardHat,
+  },
+  {
+    title: 'Catering Services',
+    description:
+      'Catering services rendered with care for events, sites and institutions.',
+    icon: UtensilsCrossed,
+  },
+  {
+    title: 'Tendering & Procurement',
+    description:
+      'End-to-end tendering and procurement support, managed professionally on your behalf.',
+    icon: FileText,
+  },
+  {
+    title: 'Professional Project Support',
+    description:
+      'We hire, provide, manage and sub-contract professionals for technically related services.',
+    icon: Briefcase,
+  },
+]
+
+export const whyChooseUs = [
+  {
+    title: 'Reliable Service',
+    description: 'Dependable delivery our clients can count on every time.',
+  },
+  {
+    title: 'Experienced Workforce',
+    description: 'A labour force with ample experience and proven skills.',
+  },
+  {
+    title: 'Quality Products',
+    description: 'Only the highest quality materials and supplies, every project.',
+  },
+  {
+    title: 'On-Time Delivery',
+    description: 'We deliver products and services on time, all the time.',
+  },
+  {
+    title: 'Safety First',
+    description: 'Safety is treated as a priority on every site we run.',
+  },
+  {
+    title: 'Customer Satisfaction',
+    description: 'We follow up at the end of each project to ensure you are happy.',
+  },
+  {
+    title: 'Professional Management',
+    description: 'Pro-active management directing every project effectively.',
+  },
+  {
+    title: 'Community Development',
+    description: 'Creating jobs and ploughing resources back into communities.',
+  },
+]
+
+export const standards = [
+  'Work commences within 7 days of a signed agreement',
+  'No unnecessary interruptions until the project is complete',
+  'Only the highest quality materials are used',
+  'The work area is left clean and neat at the end of each day',
+  'Customer follow-up at the end of every project',
+  'Products and services delivered on time, all the time',
+  'A satisfactory, high-quality service guarantee',
+  'Safety treated as a priority throughout',
+]
+
+export const industries = [
+  {
+    title: 'National Government',
+    description: 'Trusted support for national government departments and programmes.',
+  },
+  {
+    title: 'Local Government',
+    description: 'Serving municipalities with cleaning, supply and project services.',
+  },
+  {
+    title: 'Private Sector',
+    description: 'Flexible solutions for private businesses and organisations.',
+  },
+  {
+    title: 'Individuals',
+    description: 'Quality services available directly to individual clients.',
+  },
+]
+
+export const values = [
+  'Quality',
+  'Integrity',
+  'Reliability',
+  'Empowerment',
+  'Innovation',
+  'Community Development',
+  'Professionalism',
+]
+
+export type Client = {
+  name: string
+  sector: string
+  description: string
+}
+
+export const clients: Client[] = [
+  {
+    name: 'OBP (Onderstepoort Biological Products)',
+    sector: 'State-Owned Entity',
+    description:
+      'Ongoing gardening, landscaping and fire-breaker services delivered across multiple contracts.',
+  },
+  {
+    name: 'LEDA',
+    sector: 'Government Agency',
+    description:
+      'Supply and delivery of plumbing materials for the Limpopo Economic Development Agency.',
+  },
+  {
+    name: 'Jubilee District Hospital',
+    sector: 'Public Healthcare',
+    description:
+      'Supply and delivery of hardware tools supporting hospital facilities and maintenance.',
+  },
+  {
+    name: 'Thulamela Municipality',
+    sector: 'Local Government',
+    description:
+      'Supply and delivery of garden tools to support municipal maintenance programmes.',
+  },
+  {
+    name: 'Department of Education (Mpumalanga)',
+    sector: 'National Government',
+    description:
+      'Cleaning and gardening services delivered for departmental facilities.',
+  },
+  {
+    name: 'Cleaning Warehouse East Lynne',
+    sector: 'Private Sector',
+    description:
+      'Supply and delivery of cleaning materials to support warehouse operations.',
+  },
+  {
+    name: 'Johnson Control (Pty) Ltd',
+    sector: 'Private Sector',
+    description:
+      'Reliable staff transport services to and from work on a long-term basis.',
+  },
+]
+
+export type Project = {
+  year: string
+  client: string
+  service: string
+  duration: string
+  value: string
+}
+
+export const projects: Project[] = [
+  {
+    year: '2025',
+    client: 'OBP',
+    service: 'Gardening Services',
+    duration: '12 Months',
+    value: 'R974 050.00',
+  },
+  {
+    year: '2025',
+    client: 'OBP',
+    service: 'Fire Breaker',
+    duration: 'Once-off',
+    value: 'R437 000.00',
+  },
+  {
+    year: '2024',
+    client: 'OBP',
+    service: 'Garden Services',
+    duration: '12 months',
+    value: 'R821 100.00',
+  },
+  {
+    year: '2024',
+    client: 'LEDA',
+    service: 'Supply & delivery of plumbing materials',
+    duration: '1 day',
+    value: 'R92 470.90',
+  },
+  {
+    year: '2024',
+    client: 'Jubilee District Hospital',
+    service: 'Supply & delivery of hardware tools',
+    duration: '1 day',
+    value: 'R14 718.27',
+  },
+  {
+    year: '2024',
+    client: 'Thulamela Municipality',
+    service: 'Supply & delivery of garden tools',
+    duration: '1 day',
+    value: 'R14 000.00',
+  },
+  {
+    year: '2022',
+    client: 'OBP',
+    service: 'Garden Service',
+    duration: '12 months',
+    value: 'R441 600.00',
+  },
+  {
+    year: '2016',
+    client: 'Department of Education MP',
+    service: 'Cleaning & gardening services',
+    duration: '4 months',
+    value: 'R269 164.12',
+  },
+  {
+    year: '2016',
+    client: 'Cleaning Warehouse East Lynne',
+    service: 'Supply & delivery of cleaning materials',
+    duration: '1 month',
+    value: 'R65 000.00',
+  },
+  {
+    year: '2015',
+    client: 'Johnson Control Pty Ltd',
+    service: 'Staff transport to and from work',
+    duration: '48 months (ongoing)',
+    value: 'R120 000.00',
+  },
+]
