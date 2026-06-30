@@ -100,15 +100,6 @@ export function Contact({ hideHeading = false }: { hideHeading?: boolean }) {
                 </div>
               </div>
 
-              <div className="overflow-hidden rounded-2xl border border-border shadow-sm">
-                <iframe
-                  title="Tlou Tubatse location map"
-                  className="h-56 w-full"
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  src="https://maps.google.com/maps?q=Marapong%20Village%20Limpopo&t=&z=11&ie=UTF8&iwloc=&output=embed"
-                />
-              </div>
             </div>
           </Reveal>
 
